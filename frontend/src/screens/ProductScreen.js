@@ -102,6 +102,7 @@ const ProductScreen = () => {
                             </ListGroup.Item>
                         )}
                         <ListGroup.Item>
+                            <Row>
                             <Button
                                 onClick={addToCartHandler}
                                 className='btn-block' 
@@ -110,6 +111,7 @@ const ProductScreen = () => {
                                 >
                                 В корзину
                             </Button>
+                            </Row>
                         </ListGroup.Item>
                     </ListGroup>
                 </Card>
